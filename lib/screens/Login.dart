@@ -149,39 +149,14 @@ class _LoginState extends State<Login> {
                         fbLogin();
                       },
                     ),
-                    GestureDetector(
-                      child: Card(
-                          elevation: 5,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(100)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(15.0),
-                            child: Image.asset(
-                              "assets/images/twitter.png",
-                              scale: 2,
-                            ),
-                          )),
-                      onTap: () {},
-                    ),
-                    GestureDetector(
-                      child: Card(
-                          elevation: 5,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(100)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(15.0),
-                            child: Image.asset(
-                              "assets/images/linked.png",
-                              scale: 2,
-                            ),
-                          )),
-                      onTap: () {},
-                    ),
+
                   ],
                 ),
               ),
               FlatButton(
-                  onPressed: () {},
+                  onPressed: () {
+
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
